@@ -1,23 +1,23 @@
-setTimeout(() => {
+setTimeout1(() => {
   process.stdout.write('\r|  ');
 }, 100);
 
-setTimeout(() => {
+setTimeout2(() => {
   process.stdout.write('\r/  ');
 }, 300);
 
-setTimeout(() => {
+setTimeout3(() => {
   process.stdout.write('\r-  ');
 }, 500);
 
-setTimeout(() => {
+setTimeout4(() => {
   process.stdout.write('\r\\  ');
 }, 700);
 
-setTimeout(() => {
+setTimeout5(() => {
   process.stdout.write('\r|  ');
 }, 900);
 
-setTimeout(() => {
+setTimeout5(() => {
   process.stdout.write('\r/  ');
 }, 1100);
